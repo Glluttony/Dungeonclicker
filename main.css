@@ -1,0 +1,196 @@
+#topbar {
+<<<<<<< HEAD
+    width: auto;
+    height: 10;              
+}
+
+#gamefield {
+
+=======
+    width: 100%;
+    height: 100;
+}
+
+#gamefield {
+    width: 100%;
+    height: 400px;
+    
+>>>>>>> origin/master
+}
+
+#bottombar {
+    height: 10px;
+}
+
+
+.hpBar {
+    width: 90%;
+    height: 15px;
+<<<<<<< HEAD
+    position: absolute;
+    left: 5%;
+    top: 25px;
+=======
+>>>>>>> origin/master
+    background-color: red;
+}
+
+
+#counterPane {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.charcterField {
+<<<<<<< HEAD
+    background-image: url(resources/images/severus_snape.jpg);
+=======
+>>>>>>> origin/master
+    background-size: 200px 300px;
+    width: 200;
+    height: 300;
+    position: absolute;
+    left: 150;
+    top: 100;
+}
+
+#enemeyField {
+<<<<<<< HEAD
+    background-image: url(resources/images/filename-europe-trip.jpg);
+=======
+    background-image: url(resources/images/tortoise.png);
+>>>>>>> origin/master
+    background-size: 300 200;
+    width: 300;
+    height: 200;
+    position: absolute;
+    left: 600;
+    top: 190;
+}
+
+#character-1 {
+<<<<<<< HEAD
+    background-image: url(resources/images/severus_snape.jpg);
+=======
+    background-image: url(resources/images/wizard-1.png);
+>>>>>>> origin/master
+    top: 50px;
+    left: 300px;
+}
+
+.characterPortrait {
+    background-size: 200 300;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+}
+
+#characters {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+<<<<<<< HEAD
+    top: 120px;
+    left: 100px;
+    background-color: lightblue;
+}
+
+#character-2 {
+    background-image: url(resources/images/hulk.jpg);
+=======
+}
+
+#character-2 {
+    background-image: url(resources/images/wizard-1.png);
+>>>>>>> origin/master
+    left: 155px;
+}
+
+#character-3 {
+<<<<<<< HEAD
+    background-image: url(resources/images/hulk.jpg);
+=======
+    background-image: url(resources/images/warrior-1.png);
+>>>>>>> origin/master
+    left: 90px;
+    top: 100
+}
+
+#character-4 {
+<<<<<<< HEAD
+    background-image: url(resources/images/severus_snape.jpg);
+=======
+    background-image: url(resources/images/warrior-1.png);
+>>>>>>> origin/master
+    top: 50px;
+}
+
+#enemies {
+<<<<<<< HEAD
+    background-image: url(resources/images/filename-europe-trip.jpg);
+    background-size: 300px 200px;
+    position:absolute;
+    height: 200px;
+    width: 300px;
+    left: 800;
+    top: 250;
+=======
+
+    background-size: 500px 400px;
+    height: 400px;
+    width: 500px;
+>>>>>>> origin/master
+}
+
+#friendlyHPbar {
+    width: 400px;
+    height: 15px;
+    position: absolute;
+<<<<<<< HEAD
+    top: 525px;
+    left: 150px;
+}
+
+#enememyPortrait {
+    background-size: 300px 200px;
+    width: inherit;
+    height: inherit;
+}
+=======
+}
+
+#enememyPortrait {
+    background-image: url(resources/images/tortoise.png);
+    background-size: 500px 400px;
+    height: 400px;
+    width: 500px;
+}
+
+#enemyBackground {
+    background-image: url(resources/images/wall.png);
+    background-size: 500px 400px;
+    margin-left: 700px;
+    margin-right: 0;
+    width: 500px;
+    height: 400px;
+}
+
+#battlefield {
+    background-image: url(resources/images/wall.png);
+    background-size: 500px 400px;
+    width: 1200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#enemyForeground {
+    background-image: url(resources/images/enemyoverlay.png);
+    background-size: 500px 400px;
+    margin-right: 0;
+    margin-top: -400;
+    width: 500px;
+    height: 400px;
+}
+>>>>>>> origin/master
