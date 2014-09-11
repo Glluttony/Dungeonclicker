@@ -30,13 +30,9 @@ Game.Launch = function () {
     Game.totalClicks = 0;
     Game.enemies = [];
     
-<<<<<<< HEAD
-    this.enemies.push({name: 'Spider', hp: 5, minLevel: 0, image: "url(./resources/images/filename-europe-trip.jpg)"});
-    this.enemies.push({name: "Basilisk", hp: 5, minLevel: 0, image: "url(./resources/images/Muk.gif)"});
-=======
+
     this.enemies.push({name: 'Tortoise', hp: 50, minLevel: 0, image: "url(./resources/images/tortoise.png)"});
     this.enemies.push({name: "Snake", hp: 50, minLevel: 0, image: "url(./resources/images/snake.png)"});
->>>>>>> origin/master
     
     
     Game.updateCounterPane = function () {
@@ -87,11 +83,7 @@ Game.Launch = function () {
     Game.setupCleanGame = function () {
         //Game.currentEnemy = Enemy.Create("spider", 10);
        
-<<<<<<< HEAD
-        this.currentEnemy = clone(this.getEnemey("Spider"));
-=======
         this.currentEnemy = clone(this.getEnemey("Tortoise"));
->>>>>>> origin/master
         
         //Game.characterClickThing = document.getElementById("characters");
         this.counterPane = document.getElementById("counterPane");
@@ -113,9 +105,5 @@ function onLoad() {
     
     Game.setupCleanGame();
     
-<<<<<<< HEAD
-}
-=======
 }
 
->>>>>>> origin/master
